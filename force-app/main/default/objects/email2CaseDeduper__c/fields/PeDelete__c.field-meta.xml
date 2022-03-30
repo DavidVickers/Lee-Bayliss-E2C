@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>PeDelete__c</fullName>
+    <defaultValue>false</defaultValue>
+    <externalId>false</externalId>
+    <inlineHelpText>If selected then use a platform event to delete else as scheduled calls will delete</inlineHelpText>
+    <label>Delete via platform event</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

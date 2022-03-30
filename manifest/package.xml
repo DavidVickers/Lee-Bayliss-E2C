@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Package xmlns="http://soap.sforce.com/2006/04/metadata">
+	<types>
+		<members>CaseTrigHelper</members>
+		<members>EmailMessageTrigHelper</members>
+		<members>EmailThreading</members>
+		<members>PE_DML_Helper</members>
+		<members>UtilCaseDemo</members>
+		<members>UtilEmail2CaseDuplcates</members>
+		<members>UtilEmail2CaseDuplcates1a</members>
+		<members>UtilQueues</members>
+		<members>UtilRecursion</members>
+		<members>UtilRecursionTest</members>
+		<name>ApexClass</name>
+	</types>
+	<types>
+		<members>CaseTrigger</members>
+		<members>EmailMessageTrigger</members>
+		<members>PE_DMLTrigger</members>
+		<name>ApexTrigger</name>
+	</types>
+	<types>
+		<members>EmailMessage.Email_message_original__c</members>
+		<name>CustomField</name>
+	</types>
+	<types>
+		<members>DML__e</members>
+		<members>email2CaseDeduper__c</members>
+		<name>CustomObject</name>
+	</types>
+	<types>
+		<members>*</members>
+		<name>PlatformCachePartition</name>
+	</types>
+	<version>53.0</version>
+</Package>

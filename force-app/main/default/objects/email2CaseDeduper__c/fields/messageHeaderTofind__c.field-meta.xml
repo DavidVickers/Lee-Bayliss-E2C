@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>messageHeaderTofind__c</fullName>
+    <caseSensitive>false</caseSensitive>
+    <description>The messages header that you email servie inserts when it redirects or forwards a message</description>
+    <encryptionScheme>None</encryptionScheme>
+    <externalId>false</externalId>
+    <inlineHelpText>The messages header that you email servie inserts when it redirects or forwards a message. fore example MS Outlook  uses  :- x-ms-exchange-parent-message-id:
+Google uses :- Message-Id:    ie it forwards a messages it does not give it a new ID but still declare this header here</inlineHelpText>
+    <label>Message header to find</label>
+    <length>255</length>
+    <required>true</required>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>true</unique>
+</CustomField>

@@ -1,0 +1,16 @@
+{
+	"folders": [
+		{
+			"path": ".."
+		},
+		{
+			"name": "email2case",
+			"path": "../../git/email2case"
+		},
+		{
+			"name": "Salesforce_Utilities",
+			"path": "../../git/Salesforce_Utilities"
+		}
+	],
+	"settings": {}
+}
