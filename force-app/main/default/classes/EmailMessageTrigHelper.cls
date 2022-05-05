@@ -3,6 +3,7 @@ public class EmailMessageTrigHelper {
     Public Static final string DuplicateCasesQName = (string)email2CaseDeduper__c.getValues('Dedupe').get('queueApiNameDeleteMe__c');   
     Public Static final string DuplicateCasesQid;    
     Public Static final boolean usePe = (boolean)email2CaseDeduper__c.getValues('Dedupe').get('PeDelete__c');  
+    Public static final Boolean Usededupe = (Boolean)email2CaseDeduper__c.getValues('Dedupe').get('Deduplication_Active__c');
     Public static set<String> DuplicateCases = New set<string>();
     
     //Static initialization code is a block of code preceded with the keyword static.
@@ -23,6 +24,7 @@ public class EmailMessageTrigHelper {
     //DuplicateCases
 
     Public Static void EmailmessageIteratorBI(List<EmailMessage> messages){
+        If(!Usededupe){return;}
         list<EmailMessage> incomingMsg = new list<EmailMessage>();  
         for(emailmessage em :messages){
             if(em.Incoming){   
